@@ -2,6 +2,7 @@
   "name": "video-downloder",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -11,8 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "another-fb-video-downloader": "^1.0.6",
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "tiktokdl": "^0.0.5"
   }
 }

@@ -2,7 +2,6 @@
   "name": "video-downloder",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -12,11 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "btch-downloader": "^2.8.4",
+    "another-fb-video-downloader": "^1.0.6",
     "cors": "^2.8.5",
     "express": "^4.21.2"
-  },
-  "overrides": {
-    "got" : "14.4.6"
   }
 }

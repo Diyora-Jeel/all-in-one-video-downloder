@@ -20,18 +20,8 @@ app.post("/download", async(req, res) => {
     // }
 
     try {
-
         const data = await tiktokdl(url)
-        console.log(data)
-        res.send("Hello")
-
-        // facebook(url,false)
-        // .then(videoUrl => 
-        //     res.json({ videoUrl})
-        // )
-        // .catch(error => 
-        //     res.status(404).json({ error })
-        // );
+        res.json({ data})
     } catch (error) {
         res.status(500).json({ error: "Failed to fetch video URL" });
     }
